@@ -1,110 +1,271 @@
 [
   {
-    "team": "El Barrio",
     "wins": 1,
     "loses": 0,
     "scoredGoals": 5,
     "concededGoals": 0,
     "yellowCards": 0,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "el-barrio",
+      "name": "El Barrio",
+      "image": "/el-barrio.svg",
+      "url": "",
+      "president": "Adri Contreras",
+      "channel": "",
+      "coach": "Juan Arroita",
+      "socialNetworks": [
+        "https://www.instagram.com/elbarrioklk",
+        "https://www.tiktok.com/@adricontreras4",
+        "https://twitter.com/elbarrioklk_",
+        "https://www.tiktok.com/@elbarrioklk"
+      ],
+      "players": []
+    }
   },
   {
-    "team": "Ultimate Móstoles",
     "wins": 1,
     "loses": 0,
     "scoredGoals": 5,
     "concededGoals": 1,
     "yellowCards": 0,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "/ultimate-mostoles.svg",
+      "url": "",
+      "president": "DjMaRiiO",
+      "channel": "",
+      "coach": "Nacho Castro",
+      "socialNetworks": [
+        "https://m.youtube.com/user/DjMaRiiO/videos"
+      ],
+      "players": []
+    }
   },
   {
-    "team": "Los Troncos FC",
     "wins": 1,
     "loses": 0,
     "scoredGoals": 5,
     "concededGoals": 3,
     "yellowCards": 1,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "/los-troncos.png",
+      "url": "",
+      "president": "Perxitaa",
+      "channel": "https://twitch.tv",
+      "coach": "Pol Font",
+      "socialNetworks": [
+        "https://www.twitch.tv/perxitaa",
+        "https://www.instagram.com/troncosfc.oficial/",
+        "https://twitter.com/lostroncosfc_/",
+        "https://www.tiktok.com/@lostroncosfc_"
+      ],
+      "players": []
+    }
   },
   {
-    "team": "1K FC",
     "wins": 1,
     "loses": 0,
     "scoredGoals": 4,
     "concededGoals": 2,
     "yellowCards": 0,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "1k",
+      "name": "1K FC",
+      "image": "/1k.svg",
+      "url": "",
+      "president": "Iker casillas",
+      "channel": "",
+      "coach": "Julio García Mera",
+      "socialNetworks": [
+        "https://www.instagram.com/1kfutbolclub/",
+        "https://twitter.com/1kfutbolclub",
+        "https://www.youtube.com/c/IkerCasillas",
+        "https://www.tiktok.com/@1kfutbolclub"
+      ],
+      "players": []
+    }
   },
   {
-    "team": "Saiyans FC",
     "wins": 1,
     "loses": 0,
     "scoredGoals": 4,
     "concededGoals": 2,
     "yellowCards": 1,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "saiyans-fc",
+      "name": "Saiyans FC",
+      "image": "/saiyans-fc.svg",
+      "url": "",
+      "president": "TheGrefg",
+      "channel": "",
+      "coach": "Daniel Romo",
+      "socialNetworks": [
+        "https://www.twitch.tv/thegrefg"
+      ],
+      "players": []
+    }
   },
   {
-    "team": "Kunisports",
     "wins": 1,
     "loses": 0,
     "scoredGoals": 2,
     "concededGoals": 1,
     "yellowCards": 1,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "kunisports",
+      "name": "Kunisports",
+      "image": "/kunisports.svg",
+      "url": "",
+      "president": "Kun Agüero",
+      "channel": "",
+      "coach": "Martín Posse",
+      "socialNetworks": [
+        "https://www.twitch.tv/slakun10"
+      ],
+      "players": []
+    }
   },
   {
-    "team": "Jijantes FC",
     "wins": 0,
     "loses": 1,
     "scoredGoals": 1,
     "concededGoals": 2,
     "yellowCards": 0,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "/jijantes.svg",
+      "url": "",
+      "president": "Gerard Romero",
+      "channel": "",
+      "coach": "Marc Carmona",
+      "socialNetworks": [
+        "https://www.twitch.tv/gerardromero",
+        "https://www.instagram.com/jijantesfc",
+        "https://twitter.com/JijantesFC",
+        "https://www.tiktok.com/@jijantesfutbolclub"
+      ],
+      "players": []
+    }
   },
   {
-    "team": "Porcinos FC",
     "wins": 0,
     "loses": 1,
     "scoredGoals": 2,
     "concededGoals": 4,
     "yellowCards": 1,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "porcinos-fc",
+      "name": "Porcinos FC",
+      "image": "/porcinos-fc.svg",
+      "url": "",
+      "president": "Ibai Llanos",
+      "channel": "",
+      "coach": "Juvenal Edjogo-Owono",
+      "socialNetworks": [
+        "https://www.twitch.tv/ibai",
+        "https://twitter.com/FCPorcinos"
+      ],
+      "players": []
+    }
   },
   {
-    "team": "Rayo de Barcelona",
     "wins": 0,
     "loses": 1,
     "scoredGoals": 2,
     "concededGoals": 4,
     "yellowCards": 0,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "rayo-barcelona",
+      "name": "Rayo de Barcelona",
+      "image": "/rayo-barcelona.svg",
+      "url": "",
+      "president": "Spursito",
+      "channel": "",
+      "coach": "JuanluDBZ",
+      "socialNetworks": [
+        "https://www.twitch.tv/spursito",
+        "https://www.instagram.com/rayodebarcelona/?hl=es",
+        "https://twitter.com/RayodeBarcelona",
+        "https://www.tiktok.com/@rayodebarcelona"
+      ],
+      "players": []
+    }
   },
   {
-    "team": "XBUYER TEAM",
     "wins": 0,
     "loses": 1,
     "scoredGoals": 2,
     "concededGoals": 5,
     "yellowCards": 1,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "xbuyer-team",
+      "name": "XBUYER TEAM",
+      "image": "/xbuyer.svg",
+      "url": "",
+      "president": "Hnos. Buyer",
+      "channel": "",
+      "coach": "Victor González",
+      "socialNetworks": [
+        "https://www.youtube.com/xbuyer"
+      ],
+      "players": []
+    }
   },
   {
-    "team": "Aniquiladores FC",
     "wins": 0,
     "loses": 1,
     "scoredGoals": 1,
     "concededGoals": 5,
     "yellowCards": 0,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "/aniquiladores.svg",
+      "url": "",
+      "president": "Juan Guarnizo",
+      "channel": "",
+      "coach": "Sergio Verdirame",
+      "socialNetworks": [
+        "https://www.twitch.tv/juansguarnizo"
+      ],
+      "players": []
+    }
   },
   {
-    "team": "PIO FC",
     "wins": 0,
     "loses": 1,
     "scoredGoals": 0,
     "concededGoals": 5,
     "yellowCards": 1,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "pio-fc",
+      "name": "PIO FC",
+      "image": "/pio.svg",
+      "url": "",
+      "president": "Rivers",
+      "channel": "",
+      "coach": "Gerardo Torrado",
+      "socialNetworks": [
+        "https://www.twitch.tv/rivers_gg",
+        "https://twitter.com/PIO_FC"
+      ],
+      "players": []
+    }
   }
 ]
