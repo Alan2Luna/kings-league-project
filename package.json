@@ -4,7 +4,7 @@
   "description": "Project",
   "type": "module",
   "main": "index.js",
-  "script": {
+  "scripts": {
     "dev:api": "wrangler dev api/index.js",
     "publish:api": "wrangler publish api/index.js"
   },
