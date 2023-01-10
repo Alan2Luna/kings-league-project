@@ -2,9 +2,9 @@
     {
         "id": "los-troncos-fc",
         "name": "Los Troncos FC",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/logos/los-troncos.png",
+        "image": "https://kings-league-api.alanluna.workers.dev/static/logos/los-troncos.svg",
         "url": "",
-        "president": "Perxitaa",
+        "presidentId": "perxitaa",
         "channel": "https://twitch.tv",
         "coach": "Pol Font",
         "socialNetworks": [
@@ -20,7 +20,7 @@
         "name": "Saiyans FC",
         "image": "https://kings-league-api.alanluna.workers.dev/static/logos/saiyans-fc.svg",
         "url": "",
-        "president": "TheGrefg",
+        "presidentId": "thegrefg",
         "channel": "",
         "coach": "Daniel Romo",
         "socialNetworks": [
@@ -33,7 +33,7 @@
         "name": "Kunisports",
         "image": "https://kings-league-api.alanluna.workers.dev/static/logos/kunisports.svg",
         "url": "",
-        "president": "Kun Agüero",
+        "presidentId": "kun-aguero",
         "channel": "",
         "coach": "Martín Posse",
         "socialNetworks": [
@@ -46,7 +46,7 @@
         "name": "Jijantes FC",
         "image": "https://kings-league-api.alanluna.workers.dev/static/logos/jijantes.svg",
         "url": "",
-        "president": "Gerard Romero",
+        "presidentId": "gerard-romero",
         "channel": "",
         "coach": "Marc Carmona",
         "socialNetworks": [
@@ -62,7 +62,7 @@
         "name": "Porcinos FC",
         "image": "https://kings-league-api.alanluna.workers.dev/static/logos/porcinos-fc.svg",
         "url": "",
-        "president": "Ibai Llanos",
+        "presidentId": "ibai-llanos",
         "channel": "",
         "coach": "Juvenal Edjogo-Owono",
         "socialNetworks": [
@@ -76,7 +76,7 @@
         "name": "Rayo de Barcelona",
         "image": "https://kings-league-api.alanluna.workers.dev/static/logos/rayo-barcelona.svg",
         "url": "",
-        "president": "Spursito",
+        "presidentId": "spursito",
         "channel": "",
         "coach": "JuanluDBZ",
         "socialNetworks": [
@@ -92,7 +92,7 @@
         "name": "XBUYER TEAM",
         "image": "https://kings-league-api.alanluna.workers.dev/static/logos/xbuyer.svg",
         "url": "",
-        "president": "Hnos. Buyer",
+        "presidentId": "hnos-buyer",
         "channel": "",
         "coach": "Victor González",
         "socialNetworks": [
@@ -105,7 +105,7 @@
         "name": "Aniquiladores FC",
         "image": "https://kings-league-api.alanluna.workers.dev/static/logos/aniquiladores.svg",
         "url": "",
-        "president": "Juan Guarnizo",
+        "presidentId": "juan-guarnizo",
         "channel": "",
         "coach": "Sergio Verdirame",
         "socialNetworks": [
@@ -118,7 +118,7 @@
         "name": "PIO FC",
         "image": "https://kings-league-api.alanluna.workers.dev/static/logos/pio.svg",
         "url": "",
-        "president": "Rivers",
+        "presidentId": "rivers",
         "channel": "",
         "coach": "Gerardo Torrado",
         "socialNetworks": [
@@ -132,7 +132,7 @@
         "name": "Ultimate Móstoles",
         "image": "https://kings-league-api.alanluna.workers.dev/static/logos/ultimate-mostoles.svg",
         "url": "",
-        "president": "DjMaRiiO",
+        "presidentId": "djmariio",
         "channel": "",
         "coach": "Nacho Castro",
         "socialNetworks": [
@@ -145,7 +145,7 @@
         "name": "El Barrio",
         "image": "https://kings-league-api.alanluna.workers.dev/static/logos/el-barrio.svg",
         "url": "",
-        "president": "Adri Contreras",
+        "presidentId": "adri-contreras",
         "channel": "",
         "coach": "Juan Arroita",
         "socialNetworks": [
@@ -161,7 +161,7 @@
         "name": "1K FC",
         "image": "https://kings-league-api.alanluna.workers.dev/static/logos/1k.svg",
         "url": "",
-        "president": "Iker casillas",
+        "presidentId": "iker-casillas",
         "channel": "",
         "coach": "Julio García Mera",
         "socialNetworks": [
