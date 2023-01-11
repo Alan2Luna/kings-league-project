@@ -5,14 +5,14 @@ const URLS = {
   leaderboard: 'https://kingsleague.pro/estadisticas/clasificacion/'
 }
 
-async function scrape (url) {
+async function scrape(url) {
   const res = await fetch(url)
   const html = await res.text()
 
   return cheerio.load(html)
 }
 
-async function getLeaderBoard () {
+async function getLeaderBoard() {
   const $ = await scrape(URLS.leaderboard)
   const $rows = $('table tbody tr')
   const leaderboard = []
@@ -28,29 +28,35 @@ async function getLeaderBoard () {
   }
 
   const getTeamFrom = ({ name }) => {
-    const { presidentId, ...restOfTeam } = TEAMS.find(team => team.name === name)
-    const president = PRESIDENTS.find(president => president.id === presidentId)
+    const { presidentId, ...restOfTeam } = TEAMS.find(
+      (team) => team.name === name
+    )
+    const president = PRESIDENTS.find(
+      (president) => president.id === presidentId
+    )
     return { ...restOfTeam, president }
   }
 
-  const cleanText = text => text
-    .replace(/\t|\n|\s:/g, '')
-    .replace(/.*:/g, ' ')
-    .trim()
+  const cleanText = (text) =>
+    text
+      .replace(/\t|\n|\s:/g, '')
+      .replace(/.*:/g, ' ')
+      .trim()
 
   const leaderboardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS)
 
   $rows.each((_, el) => {
-    const leaderBoardEntries = leaderboardSelectorEntries.map(([key, { selector, typeOf }]) => {
-      const rawValue = $(el).find(selector).text()
-      const cleanedValue = cleanText(rawValue)
-      const value = typeOf === 'number'
-        ? Number(cleanedValue)
-        : cleanedValue
-      return [key, value]
-    })
+    const leaderBoardEntries = leaderboardSelectorEntries.map(
+      ([key, { selector, typeOf }]) => {
+        const rawValue = $(el).find(selector).text()
+        const cleanedValue = cleanText(rawValue)
+        const value = typeOf === 'number' ? Number(cleanedValue) : cleanedValue
+        return [key, value]
+      }
+    )
 
-    const { team: teamName, ...leaderboardForTeam } = Object.fromEntries(leaderBoardEntries)
+    const { team: teamName, ...leaderboardForTeam } =
+      Object.fromEntries(leaderBoardEntries)
     const team = getTeamFrom({ name: teamName })
 
     leaderboard.push({
@@ -60,7 +66,7 @@ async function getLeaderBoard () {
   })
 
   return leaderboard
-};
+}
 
 const leaderboard = await getLeaderBoard()
 

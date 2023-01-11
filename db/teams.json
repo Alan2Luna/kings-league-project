@@ -1,175 +1,165 @@
 [
-    {
-        "id": "los-troncos-fc",
-        "name": "Los Troncos FC",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/logos/los-troncos.svg",
-        "url": "",
-        "presidentId": "perxitaa",
-        "channel": "https://twitch.tv",
-        "coach": "Pol Font",
-        "socialNetworks": [
-            "https://www.twitch.tv/perxitaa",
-            "https://www.instagram.com/troncosfc.oficial/",
-            "https://twitter.com/lostroncosfc_/",
-            "https://www.tiktok.com/@lostroncosfc_"
-        ],
-        "players": []
-    },
-    {
-        "id": "saiyans-fc",
-        "name": "Saiyans FC",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/logos/saiyans-fc.svg",
-        "url": "",
-        "presidentId": "thegrefg",
-        "channel": "",
-        "coach": "Daniel Romo",
-        "socialNetworks": [
-            "https://www.twitch.tv/thegrefg"
-        ],
-        "players": []
-    },
-    {
-        "id": "kunisports",
-        "name": "Kunisports",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/logos/kunisports.svg",
-        "url": "",
-        "presidentId": "kun-aguero",
-        "channel": "",
-        "coach": "Martín Posse",
-        "socialNetworks": [
-            "https://www.twitch.tv/slakun10"
-        ],
-        "players": []
-    },
-    {
-        "id": "jijantes-fc",
-        "name": "Jijantes FC",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/logos/jijantes.svg",
-        "url": "",
-        "presidentId": "gerard-romero",
-        "channel": "",
-        "coach": "Marc Carmona",
-        "socialNetworks": [
-            "https://www.twitch.tv/gerardromero",
-            "https://www.instagram.com/jijantesfc",
-            "https://twitter.com/JijantesFC",
-            "https://www.tiktok.com/@jijantesfutbolclub"
-        ],
-        "players": []
-    },
-    {
-        "id": "porcinos-fc",
-        "name": "Porcinos FC",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/logos/porcinos-fc.svg",
-        "url": "",
-        "presidentId": "ibai-llanos",
-        "channel": "",
-        "coach": "Juvenal Edjogo-Owono",
-        "socialNetworks": [
-            "https://www.twitch.tv/ibai",
-            "https://twitter.com/FCPorcinos"
-        ],
-        "players": []
-    },
-    {
-        "id": "rayo-barcelona",
-        "name": "Rayo de Barcelona",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/logos/rayo-barcelona.svg",
-        "url": "",
-        "presidentId": "spursito",
-        "channel": "",
-        "coach": "JuanluDBZ",
-        "socialNetworks": [
-            "https://www.twitch.tv/spursito",
-            "https://www.instagram.com/rayodebarcelona/?hl=es",
-            "https://twitter.com/RayodeBarcelona",
-            "https://www.tiktok.com/@rayodebarcelona"
-        ],
-        "players": []
-    },
-    {
-        "id": "xbuyer-team",
-        "name": "XBUYER TEAM",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/logos/xbuyer.svg",
-        "url": "",
-        "presidentId": "hnos-buyer",
-        "channel": "",
-        "coach": "Victor González",
-        "socialNetworks": [
-            "https://www.youtube.com/xbuyer"
-        ],
-        "players": []
-    },
-    {
-        "id": "aniquiladores-fc",
-        "name": "Aniquiladores FC",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/logos/aniquiladores.svg",
-        "url": "",
-        "presidentId": "juan-guarnizo",
-        "channel": "",
-        "coach": "Sergio Verdirame",
-        "socialNetworks": [
-            "https://www.twitch.tv/juansguarnizo"
-        ],
-        "players": []
-    },
-    {
-        "id": "pio-fc",
-        "name": "PIO FC",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/logos/pio.svg",
-        "url": "",
-        "presidentId": "rivers",
-        "channel": "",
-        "coach": "Gerardo Torrado",
-        "socialNetworks": [
-            "https://www.twitch.tv/rivers_gg",
-            "https://twitter.com/PIO_FC"
-        ],
-        "players": []
-    },
-    {
-        "id": "ultimate-mostoles",
-        "name": "Ultimate Móstoles",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/logos/ultimate-mostoles.svg",
-        "url": "",
-        "presidentId": "djmariio",
-        "channel": "",
-        "coach": "Nacho Castro",
-        "socialNetworks": [
-            "https://m.youtube.com/user/DjMaRiiO/videos"
-        ],
-        "players": []
-    },
-    {
-        "id": "el-barrio",
-        "name": "El Barrio",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/logos/el-barrio.svg",
-        "url": "",
-        "presidentId": "adri-contreras",
-        "channel": "",
-        "coach": "Juan Arroita",
-        "socialNetworks": [
-            "https://www.instagram.com/elbarrioklk",
-            "https://www.tiktok.com/@adricontreras4",
-            "https://twitter.com/elbarrioklk_",
-            "https://www.tiktok.com/@elbarrioklk"
-        ],
-        "players": []
-    },
-    {
-        "id": "1k",
-        "name": "1K FC",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/logos/1k.svg",
-        "url": "",
-        "presidentId": "iker-casillas",
-        "channel": "",
-        "coach": "Julio García Mera",
-        "socialNetworks": [
-            "https://www.instagram.com/1kfutbolclub/",
-            "https://twitter.com/1kfutbolclub",
-            "https://www.youtube.com/c/IkerCasillas",
-            "https://www.tiktok.com/@1kfutbolclub"
-        ],
-        "players": []
-    }
+  {
+    "id": "los-troncos-fc",
+    "name": "Los Troncos FC",
+    "image": "https://kings-league-api.alanluna.workers.dev/static/logos/los-troncos.svg",
+    "url": "",
+    "presidentId": "perxitaa",
+    "channel": "https://twitch.tv",
+    "coach": "Pol Font",
+    "socialNetworks": [
+      "https://www.twitch.tv/perxitaa",
+      "https://www.instagram.com/troncosfc.oficial/",
+      "https://twitter.com/lostroncosfc_/",
+      "https://www.tiktok.com/@lostroncosfc_"
+    ],
+    "players": []
+  },
+  {
+    "id": "saiyans-fc",
+    "name": "Saiyans FC",
+    "image": "https://kings-league-api.alanluna.workers.dev/static/logos/saiyans-fc.svg",
+    "url": "",
+    "presidentId": "thegrefg",
+    "channel": "",
+    "coach": "Daniel Romo",
+    "socialNetworks": ["https://www.twitch.tv/thegrefg"],
+    "players": []
+  },
+  {
+    "id": "kunisports",
+    "name": "Kunisports",
+    "image": "https://kings-league-api.alanluna.workers.dev/static/logos/kunisports.svg",
+    "url": "",
+    "presidentId": "kun-aguero",
+    "channel": "",
+    "coach": "Martín Posse",
+    "socialNetworks": ["https://www.twitch.tv/slakun10"],
+    "players": []
+  },
+  {
+    "id": "jijantes-fc",
+    "name": "Jijantes FC",
+    "image": "https://kings-league-api.alanluna.workers.dev/static/logos/jijantes.svg",
+    "url": "",
+    "presidentId": "gerard-romero",
+    "channel": "",
+    "coach": "Marc Carmona",
+    "socialNetworks": [
+      "https://www.twitch.tv/gerardromero",
+      "https://www.instagram.com/jijantesfc",
+      "https://twitter.com/JijantesFC",
+      "https://www.tiktok.com/@jijantesfutbolclub"
+    ],
+    "players": []
+  },
+  {
+    "id": "porcinos-fc",
+    "name": "Porcinos FC",
+    "image": "https://kings-league-api.alanluna.workers.dev/static/logos/porcinos-fc.svg",
+    "url": "",
+    "presidentId": "ibai-llanos",
+    "channel": "",
+    "coach": "Juvenal Edjogo-Owono",
+    "socialNetworks": [
+      "https://www.twitch.tv/ibai",
+      "https://twitter.com/FCPorcinos"
+    ],
+    "players": []
+  },
+  {
+    "id": "rayo-barcelona",
+    "name": "Rayo de Barcelona",
+    "image": "https://kings-league-api.alanluna.workers.dev/static/logos/rayo-barcelona.svg",
+    "url": "",
+    "presidentId": "spursito",
+    "channel": "",
+    "coach": "JuanluDBZ",
+    "socialNetworks": [
+      "https://www.twitch.tv/spursito",
+      "https://www.instagram.com/rayodebarcelona/?hl=es",
+      "https://twitter.com/RayodeBarcelona",
+      "https://www.tiktok.com/@rayodebarcelona"
+    ],
+    "players": []
+  },
+  {
+    "id": "xbuyer-team",
+    "name": "XBUYER TEAM",
+    "image": "https://kings-league-api.alanluna.workers.dev/static/logos/xbuyer.svg",
+    "url": "",
+    "presidentId": "hnos-buyer",
+    "channel": "",
+    "coach": "Victor González",
+    "socialNetworks": ["https://www.youtube.com/xbuyer"],
+    "players": []
+  },
+  {
+    "id": "aniquiladores-fc",
+    "name": "Aniquiladores FC",
+    "image": "https://kings-league-api.alanluna.workers.dev/static/logos/aniquiladores.svg",
+    "url": "",
+    "presidentId": "juan-guarnizo",
+    "channel": "",
+    "coach": "Sergio Verdirame",
+    "socialNetworks": ["https://www.twitch.tv/juansguarnizo"],
+    "players": []
+  },
+  {
+    "id": "pio-fc",
+    "name": "PIO FC",
+    "image": "https://kings-league-api.alanluna.workers.dev/static/logos/pio.svg",
+    "url": "",
+    "presidentId": "rivers",
+    "channel": "",
+    "coach": "Gerardo Torrado",
+    "socialNetworks": [
+      "https://www.twitch.tv/rivers_gg",
+      "https://twitter.com/PIO_FC"
+    ],
+    "players": []
+  },
+  {
+    "id": "ultimate-mostoles",
+    "name": "Ultimate Móstoles",
+    "image": "https://kings-league-api.alanluna.workers.dev/static/logos/ultimate-mostoles.svg",
+    "url": "",
+    "presidentId": "djmariio",
+    "channel": "",
+    "coach": "Nacho Castro",
+    "socialNetworks": ["https://m.youtube.com/user/DjMaRiiO/videos"],
+    "players": []
+  },
+  {
+    "id": "el-barrio",
+    "name": "El Barrio",
+    "image": "https://kings-league-api.alanluna.workers.dev/static/logos/el-barrio.svg",
+    "url": "",
+    "presidentId": "adri-contreras",
+    "channel": "",
+    "coach": "Juan Arroita",
+    "socialNetworks": [
+      "https://www.instagram.com/elbarrioklk",
+      "https://www.tiktok.com/@adricontreras4",
+      "https://twitter.com/elbarrioklk_",
+      "https://www.tiktok.com/@elbarrioklk"
+    ],
+    "players": []
+  },
+  {
+    "id": "1k",
+    "name": "1K FC",
+    "image": "https://kings-league-api.alanluna.workers.dev/static/logos/1k.svg",
+    "url": "",
+    "presidentId": "iker-casillas",
+    "channel": "",
+    "coach": "Julio García Mera",
+    "socialNetworks": [
+      "https://www.instagram.com/1kfutbolclub/",
+      "https://twitter.com/1kfutbolclub",
+      "https://www.youtube.com/c/IkerCasillas",
+      "https://www.tiktok.com/@1kfutbolclub"
+    ],
+    "players": []
+  }
 ]

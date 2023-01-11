@@ -33,7 +33,7 @@ app.get('/presidents', (ctx) => {
 
 app.get('/presidents', (ctx) => {
   const id = ctx.req.param('id')
-  const foundPresident = presidents.find(president => president.id === id)
+  const foundPresident = presidents.find((president) => president.id === id)
 
   return foundPresident
     ? ctx.json(foundPresident)
