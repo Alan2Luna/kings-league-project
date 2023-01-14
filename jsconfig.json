@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"path": {
+			"@Components/*": ["src/componets/*"],
+			"@Layouts/*": ["src/Layouts/*"]
+		}
+	}
+}
