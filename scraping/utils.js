@@ -1,3 +1,5 @@
+import * as cheerio from 'cheerio'
+
 export const URLS = {
 	leaderboard: 'https://kingsleague.pro/estadisticas/clasificacion/',
 	mvp: 'https://kingsleague.pro/estadisticas/mvp/'

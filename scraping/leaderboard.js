@@ -1,11 +1,11 @@
 import { writeDBFile, TEAMS, PRESIDENTS } from '../db/index.js'
-import { cleanText, URL, scrape } from './utils.js'
+import { cleanText, URLS, scrape } from './utils.js'
 
 async function getLeaderBoard() {
   const $ = await scrape(URLS.leaderboard)
   const $rows = $('table tbody tr')
   const leaderboard = []
-
+	
   const LEADERBOARD_SELECTORS = {
     team: { selector: '.fs-table-text_3', typeOf: 'string' },
     wins: { selector: '.fs-table-text_4', typeOf: 'number' },
