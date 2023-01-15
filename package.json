@@ -24,6 +24,7 @@
     "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
+    "picocolors": "^1.0.0",
     "prettier": "^2.8.2",
     "prettier-plugin-astro": "^0.7.2",
     "standard": "^17.0.0",
