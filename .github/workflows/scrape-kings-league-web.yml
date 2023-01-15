@@ -27,7 +27,7 @@ jobs:
         with:
           cmd: install
       - run: |
-          node scraping/leaderboard.js
+          yarn run scrape
           git config user.name kings-league-bot
           git add -A
           git commit -m "[bot] Update Kings League Databses"
