@@ -1,18 +1,18 @@
-import { TEAMS } from '../index.js'
+import { TEAMS } from '../db/index.js'
 import { cleanText } from './utils.js'
 
 const SCORES_SELECTORS = {
 	team: { selector: '.fs-table-text_3', typeOf: 'string'},
 	playerName: { selector: '.fs-table-text_4', typeOf: 'string'},
-	ganesPlayed: { selector: '.fs-table-text_5', typeOf: 'number'},
+	gamesPlayed: { selector: '.fs-table-text_5', typeOf: 'number'},
 	goals: { selector: '.fs-table0text_6', typeOf: 'number'}
 }
 
 export async function getTopScoresList($) {
 	const $rows = $('table tbody tr')
 
-	const getImageFromTeam = ({ name }) => {
-		const { image } = TEAMS.find((team) => team.name ===name)
+	const getImageFromTeam = (name) => {
+		const { image } = TEAMS.find((team) => team.name === name)
 		return image
 	}
 
@@ -28,9 +28,9 @@ export async function getTopScoresList($) {
 
 			return [key, value]
 		})
-
+		
 		const { team: teamName, ...scorerData } = Object.fromEntries(topScorerEntries)
-		const image = getImageFromTeam({ teamName })
+		const image = getImageFromTeam( teamName )
 	
 		topScorerList.push({
 			...scorerData,
