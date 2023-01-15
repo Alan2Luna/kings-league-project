@@ -1,6 +1,7 @@
 import * as cheerio from 'cheerio'
 import { getLeaderBoard } from './leaderboard.js'
 import { getMvpList } from './mvp.js'
+import { getCoaches } from './coaches.js'
 import { logError, logInfo, logSuccess } from './log.js'
 import { writeDBFile } from '../db/index.js'
 
@@ -12,7 +13,11 @@ export const SCRAPINGS = {
 	mvp: {
 		url: 'https://kingsleague.pro/estadisticas/mvp/',
 		scraper: getMvpList
-	}
+	},
+	//coachs: {
+	//	url: 'https://es.besoccer.com/competicion/info/kings-league/2023',
+	//	scraper: getCoaches
+	//}
 }
 
 export const cleanText = (text) =>
