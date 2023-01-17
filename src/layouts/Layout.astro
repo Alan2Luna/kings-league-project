@@ -1,13 +1,11 @@
 ---
-export interface Props {
-	title: string;
-}
+import Header from '../components/Header.astro'
 
 const { title } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -15,21 +13,39 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body>
+	<body class="min-h-screen">
+		<Header />
 		<slot />
 	</body>
 </html>
-<style is:global>
-	:root {
-		--accent: 124, 58, 237;
-		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
+
+<style>
+	@font-face {
+		font-family: 'Archivo';
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url('/fonts/Archivo-Regular.woff2') format('woff2')
 	}
-	html {
-		font-family: system-ui, sans-serif;
-		background-color: #F6F6F6;
+
+	@font-face {
+		font-family: 'Archivo';
+		font-style: normal;
+		font-weight: 600;
+		font-display: swap;
+		src: url('/fonts/Archivo-SemiBold.woff2') format('woff2');
 	}
-	code {
-		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-			Bitstream Vera Sans Mono, Courier New, monospace;
+
+
+	@font-face {
+		font-family: 'Archivo Black';
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url('/fonts/ArchivoBlack-Regular.woff2') format('woff2');
+	}
+
+	html, body {
+		font-family: 'Archivo', system-ui, -apple-system, BlickMacSystemFont, Cantarell, 'Open Sans', sans-serif;
 	}
 </style>
