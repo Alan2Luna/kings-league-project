@@ -1,10 +1,17 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from '../layouts/Layout.astro'
+import Container from '../components/Container.astro'
+import Table from '../components/Table.astro'
 ---
 
 <Layout title="Kings League Infojobs">
-	<div class="container m-auto">
-		<main class="bg-[#e66000]">
-		</main>
-	</div>
+	<main>
+		<section class="bg-[#e66000]">
+			<Container>
+				<div class="">
+					<Table />
+				</div>
+			</Container>
+		</section>
+	</main>
 </Layout>
