@@ -15,5 +15,11 @@ export function writeDBFile(dbName, data) {
   )
 }
 
+
 export const TEAMS = await readDBFile('teams')
 export const PRESIDENTS = await readDBFile('presidents')
+
+export const getImageFromTeam = (name) => {
+	const { image } = TEAMS.find((team) => team.name === name)
+	return image
+}

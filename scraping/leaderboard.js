@@ -28,7 +28,7 @@ export async function getLeaderBoard($) {
 
   const leaderboardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS)
 
-  $rows.each((_, el) => {
+  $rows.each((index, el) => {
     const leaderBoardEntries = leaderboardSelectorEntries.map(
       ([key, { selector, typeOf }]) => {
         const rawValue = $(el).find(selector).text()
@@ -44,7 +44,8 @@ export async function getLeaderBoard($) {
 
     leaderboard.push({
       ...leaderboardForTeam,
-      team
+      team,
+	  rank: index + 1
     })
   })
 
