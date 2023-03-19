@@ -1,37 +1,10 @@
 [
   {
     "wins": 7,
-    "losses": 3,
-    "scoredGoals": 31,
-    "concededGoals": 25,
-    "yellowCards": 6,
-    "redCards": 0,
-    "team": {
-      "id": "ultimate-mostoles",
-      "name": "Ultimate Móstoles",
-      "image": "https://kings-league-api.alanluna.workers.dev/static/logos/ultimate-mostoles.svg",
-      "url": "",
-      "channel": "",
-      "coach": "Nacho Castro",
-      "socialNetworks": [
-        "https://m.youtube.com/user/DjMaRiiO/videos"
-      ],
-      "players": [],
-      "president": {
-        "id": "djmariio",
-        "name": "DjMaRiiO",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/presidents/djmariio.png",
-        "teamId": "ultimate-mostoles"
-      }
-    },
-    "rank": 1
-  },
-  {
-    "wins": 7,
-    "losses": 3,
-    "scoredGoals": 20,
-    "concededGoals": 16,
-    "yellowCards": 4,
+    "losses": 4,
+    "scoredGoals": 21,
+    "concededGoals": 18,
+    "yellowCards": 3,
     "redCards": 0,
     "team": {
       "id": "saiyans-fc",
@@ -51,14 +24,41 @@
         "teamId": "saiyans-fc"
       }
     },
+    "rank": 1
+  },
+  {
+    "wins": 8,
+    "losses": 3,
+    "scoredGoals": 34,
+    "concededGoals": 27,
+    "yellowCards": 7,
+    "redCards": 0,
+    "team": {
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "https://kings-league-api.alanluna.workers.dev/static/logos/ultimate-mostoles.svg",
+      "url": "",
+      "channel": "",
+      "coach": "Nacho Castro",
+      "socialNetworks": [
+        "https://m.youtube.com/user/DjMaRiiO/videos"
+      ],
+      "players": [],
+      "president": {
+        "id": "djmariio",
+        "name": "DjMaRiiO",
+        "image": "https://kings-league-api.alanluna.workers.dev/static/presidents/djmariio.png",
+        "teamId": "ultimate-mostoles"
+      }
+    },
     "rank": 2
   },
   {
-    "wins": 6,
+    "wins": 7,
     "losses": 4,
-    "scoredGoals": 32,
-    "concededGoals": 23,
-    "yellowCards": 9,
+    "scoredGoals": 37,
+    "concededGoals": 26,
+    "yellowCards": 11,
     "redCards": 0,
     "team": {
       "id": "porcinos-fc",
@@ -82,41 +82,11 @@
     "rank": 3
   },
   {
-    "wins": 6,
+    "wins": 7,
     "losses": 4,
-    "scoredGoals": 35,
-    "concededGoals": 33,
-    "yellowCards": 2,
-    "redCards": 0,
-    "team": {
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "https://kings-league-api.alanluna.workers.dev/static/logos/los-troncos.svg",
-      "url": "",
-      "channel": "https://twitch.tv",
-      "coach": "Pol Font",
-      "socialNetworks": [
-        "https://www.twitch.tv/perxitaa",
-        "https://www.instagram.com/troncosfc.oficial/",
-        "https://twitter.com/lostroncosfc_/",
-        "https://www.tiktok.com/@lostroncosfc_"
-      ],
-      "players": [],
-      "president": {
-        "id": "perxitaa",
-        "name": "Perxitaa",
-        "image": "https://kings-league-api.alanluna.workers.dev/static/presidents/perxitaa.png",
-        "teamId": "los-troncos-fc"
-      }
-    },
-    "rank": 4
-  },
-  {
-    "wins": 6,
-    "losses": 4,
-    "scoredGoals": 19,
-    "concededGoals": 21,
-    "yellowCards": -2,
+    "scoredGoals": 23,
+    "concededGoals": 22,
+    "yellowCards": 1,
     "redCards": 0,
     "team": {
       "id": "kunisports",
@@ -136,14 +106,14 @@
         "teamId": "kunisports"
       }
     },
-    "rank": 5
+    "rank": 4
   },
   {
     "wins": 5,
-    "losses": 5,
-    "scoredGoals": 30,
-    "concededGoals": 20,
-    "yellowCards": 10,
+    "losses": 6,
+    "scoredGoals": 33,
+    "concededGoals": 25,
+    "yellowCards": 8,
     "redCards": 0,
     "team": {
       "id": "el-barrio",
@@ -166,14 +136,44 @@
         "teamId": "el-barrio"
       }
     },
+    "rank": 5
+  },
+  {
+    "wins": 7,
+    "losses": 4,
+    "scoredGoals": 40,
+    "concededGoals": 34,
+    "yellowCards": 6,
+    "redCards": 0,
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "https://kings-league-api.alanluna.workers.dev/static/logos/los-troncos.svg",
+      "url": "",
+      "channel": "https://twitch.tv",
+      "coach": "Pol Font",
+      "socialNetworks": [
+        "https://www.twitch.tv/perxitaa",
+        "https://www.instagram.com/troncosfc.oficial/",
+        "https://twitter.com/lostroncosfc_/",
+        "https://www.tiktok.com/@lostroncosfc_"
+      ],
+      "players": [],
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "https://kings-league-api.alanluna.workers.dev/static/presidents/perxitaa.png",
+        "teamId": "los-troncos-fc"
+      }
+    },
     "rank": 6
   },
   {
-    "wins": 5,
+    "wins": 6,
     "losses": 5,
-    "scoredGoals": 23,
-    "concededGoals": 24,
-    "yellowCards": -1,
+    "scoredGoals": 25,
+    "concededGoals": 25,
+    "yellowCards": 0,
     "redCards": 0,
     "team": {
       "id": "xbuyer-team",
@@ -197,10 +197,10 @@
   },
   {
     "wins": 5,
-    "losses": 5,
-    "scoredGoals": 30,
-    "concededGoals": 31,
-    "yellowCards": -1,
+    "losses": 6,
+    "scoredGoals": 32,
+    "concededGoals": 34,
+    "yellowCards": -2,
     "redCards": 0,
     "team": {
       "id": "1k",
@@ -227,7 +227,7 @@
   },
   {
     "wins": 5,
-    "losses": 5,
+    "losses": 6,
     "scoredGoals": 24,
     "concededGoals": 28,
     "yellowCards": -4,
@@ -254,7 +254,7 @@
   },
   {
     "wins": 4,
-    "losses": 6,
+    "losses": 7,
     "scoredGoals": 25,
     "concededGoals": 24,
     "yellowCards": 1,
@@ -282,10 +282,10 @@
   },
   {
     "wins": 3,
-    "losses": 7,
-    "scoredGoals": 26,
-    "concededGoals": 36,
-    "yellowCards": -10,
+    "losses": 8,
+    "scoredGoals": 27,
+    "concededGoals": 40,
+    "yellowCards": -13,
     "redCards": 0,
     "team": {
       "id": "rayo-barcelona",
@@ -312,10 +312,10 @@
   },
   {
     "wins": 1,
-    "losses": 9,
-    "scoredGoals": 22,
-    "concededGoals": 36,
-    "yellowCards": -14,
+    "losses": 10,
+    "scoredGoals": 23,
+    "concededGoals": 41,
+    "yellowCards": -18,
     "redCards": 0,
     "team": {
       "id": "jijantes-fc",
